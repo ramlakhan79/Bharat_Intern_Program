@@ -1,0 +1,219 @@
+<!-- https://www.figma.com/community/file/1124669212090570174 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./images/userAsset/NavLogo2.png" type="image/x-icon">
+
+  <link rel="icon" type="image/jpg" href="images/titlelogo.jpg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar container">
+    <!-- Logo -->
+    <div class="logo-group">
+      <img class="nav-logo" src="./images/NavLogo.png" alt="" />
+      <h2 class="nav-logo-text">ortfolio</h2>
+    </div>
+
+    <!-- Nav Items -->
+    <div class="nav-items">
+      <div><a href="#skills">Skills</a></div>
+      <div><a href="#contactme">Contact Me</a></div>
+      <div><a href="#aboutme">About Me</a></div>
+      <div><a href="#certificate-sec">Certificates</a></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section container">
+    <div class="absolute faded-text">Ramlakhan Lodhi</div>
+    <!-- Left Section -->
+    <div class="hero-section-left">
+      <!-- Heading -->
+      <div class="hero-section-heading">Hi! Ramlakhan Lodhi</div>
+      <div class="hero-section-heading herosection-sub-heading">
+        I am a <span class="role"></span>
+      </div>
+
+      <!-- Description -->
+      <div class="hero-section-description">
+        I’m a web developer and here is my portfolio website. Here you’ll
+        learn about my journey as a web developer.
+      </div>
+
+      <!-- CTA Button -->
+      <div class="btn-pink" id="btn-top">Download cvv</div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="hero-section-right">
+      <div class="user-image">
+        <img src="./images/UserLogo.jpg" alt="" width="300" height="395" />
+      </div>
+    </div>
+
+    <div class="btn-pink" id="btn-bottom">Hire me</div>
+  </div>
+
+  
+  <!-- ----------AboutMe----------- -->
+  <h1 id="skills" class="about_me_sec">Skills</h1>
+  <section>
+    <div id="about" class="container about_me">
+      <p><b>Languages :</b> C, C++, Java.</p>
+      <p><b>Web Developer :</b> HTML, CSS, JavaScript.</p> 
+      <p><b>Competative Programming :</b> Codechef,GeeksForGeeks,LeetCode, Hackerearth.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+
+  <h1 id="aboutme" class="about_me_sec">About Me</h1>
+  <div id="skills" class="container skills-container">
+    <!-- Left Section -->
+    <div class="skill-container-left">
+      <h2 class="skill-heading">
+        <span class="caps">M</span>e and
+        <br />
+        MyTech
+      </h2>
+      <div class="skill-subHeading">
+        <p>
+          Hello! I am Ramlakhan Lodhi, a passionate Front-End Web Developer. I specialize in crafting stunning and functional websites that leave a lasting impression. As a solo web developer, I bring my expertise and dedication to every project I undertake.          
+        </p>
+        <p>
+          I believe in the power of collaboration and effective communication with my clients. I take the time to understand your unique requirements, goals, and vision for your website. By leveraging my technical skills and creative abilities, I strive to transform your ideas into a captivating online presence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+
+    <div class="skill-container-right">
+      <img src="./images/blob vector.png" class="blob-style" alt="" />
+
+      <img src="./images/HTML.png" alt="" class="skills-logo" />
+      <img src="./images/CSS.png" alt="" class="skills-logo" />
+      <img src="./images/Javascript.svg" alt="" class="skills-logo" />
+      <img src="./images/Git.svg" alt="" class="skills-logo" />
+      <img src="./images/Github.svg" alt="" class="skills-logo" />
+    </div>
+  </div>
+
+
+  <h1 id="certificate-sec" class="certifications">CERTIFICATES</h1>
+  <div  class="container" id="certificates">
+    <div class="certificate-sec">
+      
+      <figure class="card">
+        <img src="./certificates/C++_LUECPPMAR123425_page-0001.jpg" class="cards"alt="">
+
+      </figure>
+
+      <figure class="card">
+        <img src="./certificates/JAVA_LUEJAVAMAR123693_page-0001.jpg" class="cards" alt="">
+
+      </figure>
+
+      <figure class="card">
+        <img src="./certificates/Web-Developer Certificate R.jpeg" class="cards" alt="">
+
+      </figure>
+
+    </div>
+  </div>
+
+
+  <!-- Contact Us -->
+  <div id="contactme" class="contactus-container">
+    <div class="container">
+      <h1 class="contactus-heading">Contact Me</h1>
+      <h3 class="contactus-sub-heading">
+        Questions, thoughts, or just want to say hello?
+      </h3>
+
+      <div class="contactus-form-container">
+        <form class="form" action="https://formspree.io/f/mlekrnnl" method="post">
+          <div class="formfield-container">
+            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+          </div>
+          <div class="formfield-container">
+            <input class="formfield" type="email" name="email" id="" placeholder="Enter your email address" />
+          </div>
+          <div class="formfield-container">
+            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" />
+          </div>
+          <div class="formfield-container">
+            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+              placeholder="Enter your message"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn-pink" id="submit-btn">
+              Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer-wrapper">
+      <div class="footer-faded-text">Ramlakhan Lodhi</div>
+      <div class="link-wrapper">
+        <div>
+          <a href="#skills">Skills</a>
+        </div>
+        <div>
+          <a href="#contactme">Contact Me</a>
+        </div>
+        <div>
+          <a href="#aboutme">About Me</a>
+        </div>
+        <div>
+          <a href="#certificate-sec">Certificates</a>
+        </div>
+      </div>
+
+      <div class="icon-wrapper">        
+          <a href="https://www.linkedin.com/in/ramlakhanlodhi/"><i class="fa-brands fa-linkedin icon"></i></a>
+          <a href="https://github.com/ramlakhan79"> <i class="fa-brands fa-github icon"></i></a>
+           <a href="mailto:ramlakhanlodhi229@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>    
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Wev Developer",
+        "UI-Designer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 60,
+      backSpeed: 50,
+      backDelay: 800,
+    });
+
+    function moreabout() {
+      var x = document.getElementById('basic_details');
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
